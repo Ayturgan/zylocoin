@@ -296,7 +296,7 @@ svg {
   margin-top: 10px;
 }
 .social-media-links i {
-  color: #43eb01;
+  color: #ffffff;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -402,10 +402,15 @@ svg {
   color: #1da1f2;
 }
 
-.fa-discord:hover {
-  border-color: #5562f0;
-  box-shadow: 0px 0px 30px #5562f0;
-  color: #5562f0;
+.fa-telegram:hover {
+  border-color: #00c3ff;
+  box-shadow: 0px 0px 30px #00c3ff;
+  color: #00c3ff;
+}
+.fa-instagram:hover {
+  border-color: #f700ff;
+  box-shadow: 0px 0px 30px #f700ff;
+  color: #f700ff;
 }
 
 /* Адаптация для ноутбуков (от 551px до 1025px) */
