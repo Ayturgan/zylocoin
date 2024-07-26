@@ -127,7 +127,7 @@ svg {
 }
 
 .header-content-box {
-  z-index: 2;
+  z-index: 50;
   height: auto;
   padding-left: 200px;
   width: auto;
@@ -135,14 +135,14 @@ svg {
 }
 
 .header-content .firstline {
-  z-index: 2;
+  z-index: 50;
   font-weight: 700;
   font-family: bold;
   font-size: 65px;
 }
 
 .header-content .secondline {
-  z-index: 2;
+  z-index: 50;
   font-size: 30px;
   font-family: bold;
   padding-top: 20px;
@@ -471,6 +471,7 @@ svg {
     z-index: 0;
   }
   .social-media-links {
+    z-index: 50;
     width: 100%;
     left: 0;
     bottom: 0;
@@ -522,6 +523,7 @@ svg {
     z-index: 2;
   }
   .social-media-links {
+    z-index: 50;
     width: 100%;
     left: 0;
     bottom: 0;
@@ -541,4 +543,3 @@ svg {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
