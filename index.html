@@ -92,8 +92,6 @@
       <script src="assets/js/pace.js"></script>
       <script src="assets/js/bez.js"></script>
       <script src="assets/js/script.js"></script>
-      <script type="module" src="assets/js/globe.js"></script>
-      <!--particles script-->
       <script src="assets/js/particles.js"></script>
       <script src="assets/js/particles.min.js"></script>
       <script>
@@ -170,15 +168,6 @@
 
             renderer.setSize(700, 700); // Устанавливаем фиксированный размер 400x400
             document.getElementById("animationCanvas").appendChild(renderer.domElement);
-
-            // Удаляем обработчик для изменения размера окна, так как размеры фиксированы
-            /*
-            window.addEventListener("resize", function () {
-                  camera.aspect = window.innerWidth / window.innerHeight;
-                  camera.updateProjectionMatrix();
-                  renderer.setSize( window.innerWidth, window.innerHeight );
-            });
-            */
 
             var distance = Math.min(200, 1000 / 2);
             var geometry = new THREE.Geometry();
