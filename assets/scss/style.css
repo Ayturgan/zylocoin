@@ -408,6 +408,10 @@ canvas {
     font-size: 32px;
     padding: 8px 15px;
   }
+  canvas {
+    opacity: 0.5 !important;
+
+  }
   
 }
 /* Адаптация для планшетов */
